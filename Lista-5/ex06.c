@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int N, i, valor, teste = somaDivisoresProprios(64);
+	int N, i, valor;
 	printf("Informe um valor N: ");
 	scanf("%d", &N);
 	
