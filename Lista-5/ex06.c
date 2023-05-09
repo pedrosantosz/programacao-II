@@ -14,10 +14,9 @@ int main() {
 }
 
 int somaDivisoresProprios(int num) {
-	int i, divisor, soma = 0;
+	int i, soma = 0;
 	for (i = 1; i < num; i++) {
-		divisor = num % i;
-		if (divisor == 0)
+		if (num % i == 0)
 			soma = soma + i;
 	}
 	return soma;
